@@ -1,10 +1,14 @@
 import React from "react";
-import Food from "./components/food";
+import Recepies from "./components/Recepies";
+import Header from "./components/Partials/Header";
+import Article from "./components/article";
 
 const App = () => {
   return (
     <div>
-      <Food />
+      <Header />
+      <Recepies />
+      <Article />
     </div>
   );
 };
